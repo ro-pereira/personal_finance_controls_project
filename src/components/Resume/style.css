@@ -1,0 +1,38 @@
+.container-resume {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 239px;
+    justify-content: space-between;
+
+    padding: 26px 33px 40px;
+  
+    background: rgba(224, 224, 224, 0.322);
+
+    box-shadow: 1px 2px 11px rgba(0, 0, 0, 0.1);
+    
+    border-radius: 20px;
+  }
+
+.container-resume div {
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .border1 {
+    border-top: 1px solid rgb(185, 184, 184);
+  }
+ 
+.in {
+    color: rgb(113, 85, 238);
+}
+  
+.out {
+    color: rgb(247, 155, 81);
+}
+  
+.balance {
+    color: rgb(52, 198, 255);
+}
+  
+

@@ -1,0 +1,29 @@
+table {
+    width: 700px;
+}
+
+.table-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 140px;
+    height: 55px;
+    position: relative;
+}
+
+.table-line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.action-button {
+    cursor: pointer;
+}

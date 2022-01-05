@@ -1,0 +1,30 @@
+main.conteiner__main {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 100px);
+
+  background: rgb(255, 255, 255);
+  border-radius: 60px 60px 0px 0px;
+  padding: 80px 60px;
+
+  margin-top: -110px;
+
+  gap: 40px;
+}
+
+button.btn-add {
+  all: unset;
+  box-sizing: border-box;
+  height: 42px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(to right, rgb(216, 102, 27), 60%, rgb(252, 26, 158));
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin-top: 15px;
+}

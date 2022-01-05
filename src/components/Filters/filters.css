@@ -1,0 +1,134 @@
+button.button__filter {
+    all: unset;
+    height: 35px;
+    padding: 8px 16px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container__filters {
+    display: flex;
+    height: 200px;
+    width: 850px;
+    padding: 20px 0;
+    box-shadow: 0px 2px 11px rgba(158, 101, 101, 0.1);
+
+    border-radius: 10px;
+
+    background-color: rgba(240, 240, 240, 0.322);
+
+    margin-bottom: 30px;
+}
+
+.separator {
+    border-right: 1px solid rgb(234, 234, 234);
+    height: auto;
+}
+
+.items__filter {
+    width: 190px;
+    padding-left: 10px;
+}
+
+.items__filter  strong {
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container__action-buttons {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    height: 35px;
+}
+
+.container__action-buttons button {
+    all: unset;
+    box-sizing: border-box;
+
+    height: 35px;
+    width: 100px;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  
+}
+
+.conteiner__chips{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    margin-top: 18px;
+}
+
+button.button__apply-filters {
+    background-image: linear-gradient(to right, rgb(56, 234, 247), 60%, rgb(49, 117, 219));
+    margin-left: 16px;
+    color: rgb(255, 255, 255);
+}
+
+button.button__clear {
+    background-color: rgb(255, 255, 255);
+} 
+/*-------*/
+
+
+.inputs-filters {
+    margin-top: 30px;
+}
+
+.inputs-filters #min-value,
+.inputs-filters #max-value {
+    all: unset;
+    display: flex;
+    width: 60px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(118, 49, 245);
+    padding: 10px;
+}
+/*-------
+
+-------*/
+
+.colorWhite {
+    background: rgb(250, 250, 250);
+}
+
+.container-filters-first .chanceCol,
+.container-filters-second .chanceCol {
+    background: rgb(149, 133, 207);
+    color: aliceblue;
+}
+
+
+form .form-color-roxo {
+    color: rgb(113, 85, 238);
+}
+
+form .form-color-laranja {
+    color: rgb(221, 124, 44);
+}
+
+form .form-color-azul {
+    color: rgb(52, 198, 255);
+}
+
+  
+  .conteiner .opne-filters-button {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  
+  /*----------Modal de filtro--------*/
+
+  

@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    height: 180px;
+    width: auto;
+
+    padding: 20px 50px;
+
+    background-image: linear-gradient(to right, rgb(130, 232, 240), 40%, rgb(49, 117, 219), rgb(109, 49, 219) 100%);
+}
+
+header img.logo {
+    height: 30px;
+}
